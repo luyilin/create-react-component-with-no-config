@@ -1,5 +1,8 @@
-
 # create-react-component-with-no-config
+
+[![NPM version](https://img.shields.io/npm/v/create-react-component-with-no-config.svg?style=flat)](https://npmjs.com/package/create-react-component-with-no-config) 
+[![NPM downloads](https://img.shields.io/npm/dm/create-react-component-with-no-config.svg?style=flat)](https://npmjs.com/package/create-react-component-with-no-config) 
+[![CircleCI](https://circleci.com/gh/luyilin/create-react-component-with-no-config/tree/master.svg?style=shield)](https://circleci.com/gh/luyilin/create-react-component-with-no-config/tree/master) 
 
 Create React component with no configurations.
 
