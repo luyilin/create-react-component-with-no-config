@@ -1,7 +1,10 @@
-import { mount } from 'vue-test-utils'
+import React from 'react'
+import { configure, render } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16'
 import <%= pascalCasedComponentName %> from './'
 
+configure({ adapter: new Adapter() })
+
 test('it works', () => {
-  const wrapper = mount(<%= pascalCasedComponentName %>)
-  expect(wrapper.isVueInstance()).toBe(true)
+  expect(render(<%= pascalCasedComponentName %>).text()).toEqual('Hello react')
 })

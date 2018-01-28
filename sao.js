@@ -15,7 +15,7 @@ module.exports = {
     },
     componentName: {
       message: 'Type the component name in pascal-case',
-      default: 'FooBar'
+      default: 'Hello'
     },
     author: {
       message: 'Type your name',

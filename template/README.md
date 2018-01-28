@@ -7,27 +7,19 @@
 ## Install
 
 ```bash
-yarn add <%= name %>
+yarn add <%= name %> --save
 ```
 
 CDN: [UNPKG](https://unpkg.com/<%= name %>/) | [jsDelivr](https://cdn.jsdelivr.net/npm/<%= name %>/) (available as `window.<%= pascalCasedComponentName %>`)
 
 ## Usage
 
-```vue
-<template>
-  <<%= componentName %>></<%= componentName %>>
-</template>
-
-<script>
+```
 import <%= pascalCasedComponentName %> from '<%= name %>'
 
-export default {
-  components: {
-    <%= pascalCasedComponentName %>
-  }
-}
-</script>
+ReactDOM.render(
+  <<%= componentName %>></<%= componentName %>>
+, mountNode)
 ```
 
 ## License

@@ -1,7 +1,8 @@
-import Vue from 'vue'
-import App from './App.vue'
+import React from 'react'
+import { render } from 'react-dom'
+import Hello from '../src'
 
-new Vue({
-  el: '#app',
-  render: h => h(App)
-})
+const App = () =>
+  <Hello></Hello>
+
+render(<App />, document.getElementById('app'))

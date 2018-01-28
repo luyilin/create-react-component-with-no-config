@@ -1,7 +1,14 @@
-export default {
-  name: '<%= componentName %>',
+import React from 'react'
 
-  render(h) {
-    return h('h1', null, ['my component'])
+class <%= componentName %> extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+  render() {
+    return (
+      <div>Hello react</div>
+    )
   }
 }
+
+export default <%= componentName %>
