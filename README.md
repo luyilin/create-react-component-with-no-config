@@ -1,22 +1,24 @@
 
-# create-react-component
+# create-react-component-with-no-config
 
 Create React component with no configurations.
 
-Inspired by [create-vue-component](https://github.com/vue-land/create-vue-component), this is a fork repo.
+Inspired by the awesome [create-vue-component](https://github.com/vue-land/create-vue-component), now you can create a react component just like it!
 
 ## Install
 
 ```bash
-yarn global add crc-test
+yarn global add create-react-component-with-no-config
 ```
 
 ## Usage
 
 ```bash
-create-react-component vue-xxx
+create-react-component-with-no-config react-xxx
+# or
+create-react-component react-xxx
 # or type less
-crc vue-xxx
+crc react-xxx
 
 # you can also create component in place
 mkdir react-xxx && cd react-xxx
