@@ -6,5 +6,5 @@ import <%= pascalCasedComponentName %> from './'
 configure({ adapter: new Adapter() })
 
 test('it works', () => {
-  expect(render(<%= pascalCasedComponentName %>).text()).toEqual('Hello react')
+  expect(render(<<%= pascalCasedComponentName %> />).text()).toEqual('Hello react')
 })

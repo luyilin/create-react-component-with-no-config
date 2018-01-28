@@ -1,6 +1,6 @@
 {
   "name": "crc-test",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Create React component with no configurations.",
   "repository": {
     "url": "https://github.com/luyilin/create-react-component",
