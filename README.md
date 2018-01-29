@@ -27,6 +27,9 @@ crc react-xxx
 mkdir react-xxx && cd react-xxx
 crc
 ```
+The folder struture of generated project (no config files!):
+
+![structure](https://wx3.sinaimg.cn/mw690/a2117cdbly1fnxfc4mh6mj20jq0cddgw.jpg)
 
 ## Documentation
 
