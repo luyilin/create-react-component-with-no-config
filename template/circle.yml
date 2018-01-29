@@ -22,4 +22,4 @@ jobs:
             - ./node_modules
       - run:
           name: test
-          command: <%= _.pm %> run test:cov
+          command: <%= _.pm %> run test
