@@ -40,7 +40,7 @@ crc
 - `yarn example`: Run the demo for your component (with [Poi](https://poi.js.org))
 - `yarn example:build`: Build the demo for your component (with [Poi](https://poi.js.org))
 - `yarn build`: Build your component (with [Bili](https://github.com/egoist/bili))
-- `yarn test`: Lint and test your component (with [Tyu](https://github.com/egoist/tyu))
+- `yarn test`: Lint and test your component (with [Jest](https://github.com/facebook/jest))
 - `yarn lint`: Lint only.
 
 ### badges
