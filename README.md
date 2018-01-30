@@ -6,7 +6,7 @@
 
 Create React component with no configurations.
 
-Inspired by the awesome [create-vue-component](https://github.com/vue-land/create-vue-component), now you can create a react component just like it!
+Inspired by the awesome [vue-land/create-vue-component](https://github.com/vue-land/create-vue-component), now you can create a react component just like it!
 
 ## Install
 
