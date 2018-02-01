@@ -40,7 +40,8 @@
   },
   "dependencies": {
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "prop-types": "^15.6.0"
   },
   "devDependencies": {
     "poi": "^9.3.10",
@@ -53,6 +54,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-eslint": "^8.2.1",
-    "eslint-plugin-react": "^7.6.0"
+    "eslint-plugin-react": "^7.6.0",
+    "babel-plugin-transform-class-properties": "^6.24.1"
   }
 }
