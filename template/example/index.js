@@ -1,8 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Hello from '../src'
+import HelloWorld from '../src/index'
 
 const App = () =>
-  <Hello></Hello>
+  <HelloWorld></HelloWorld>
 
 render(<App />, document.getElementById('app'))

@@ -35,8 +35,8 @@ The folder struture of generated project (no config files!):
 
 ### folder structure
 
-- `src/index.js`: Your fancy component
-- `example/index.js`: Entry file of your demo
+- `src/index.jsx`: Your fancy component
+- `example/index.jsx`: Entry file of your demo
 
 ### npm scripts
 

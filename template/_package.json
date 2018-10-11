@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "poi": {
-    "entry": "example/index.js",
+    "entry": "example/index.jsx",
     "dist": "example/dist",
     "homepage": "./"
   },
